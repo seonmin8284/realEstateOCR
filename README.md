@@ -1,15 +1,15 @@
 # realEstateOCR
 * CAT-Net v1
-# Samples
+## Samples
 ##### 1. Clone this repo.
-# Setup
+## Setup
 ````
 hello world
 ````
-# Inference
+## Inference
 
-# Train
+## Train
 
-# How it works
+## How it works
 
-# About OCR
+## About OCR
