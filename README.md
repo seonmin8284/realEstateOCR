@@ -16,7 +16,10 @@ python tools/infer.py
 ````
 
 ## Train
-* 해당 레포지토리는 Tesseract OCR을 활용하여, 이하, 학습을 위해서는 Tesseract의 학습 과정을 따른다.
+* 해당 레포지토리는 Tesseract OCR을 활용하여, 이하, 학습을 위해서는 Tesseract의 LSTM의 모델 학습 과정을 따른다.
+1) 새롭게 학습 시킬 .box 파일(텍스트)과 .tiff 파일(이미지)로 .lstmf 파일을 만든다.
+2) 그리고 기존 .traineddata를 .lstm 파일로 만든다.
+3) 전 단계에서 만든 .lstmf 파일을 학습시켜 추가로 학습된 .traineddata를 얻어낸다. 
 
 ## How it works
 본 레포지토리 내 main.ipynb 파일에서 해당 소프트웨어의 OCR과정을 시각적으로 확인이 가능하다.
