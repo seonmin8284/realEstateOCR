@@ -5,13 +5,16 @@
 ## Samples
 ##### 1. Clone this repo.
 ## Setup
-````
-hello world
-````
-## Inference
 
-* aaaa
+## Inference
+1. input 폴더에 등기부등본 파일을 넣는다. (PDF와 PNG 및 JPEG파일 지원)
+2. 본 레포지토리의 루트에서 다음 코드를 실행시키면 된다.
+````
+python tools/infer.py
+````
+
 ## Train
+* 해당 레포지토리는 Tesseract OCR을 활용하여, 학습을 위해서는 Tesseract의 학습 과정을 따른다.
 
 ## How it works
 본 레포지토리 내 main.ipynb 파일에서 해당 소프트웨어의 OCR과정을 시각적으로 확인이 가능하다.
