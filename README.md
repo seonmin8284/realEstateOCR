@@ -12,9 +12,17 @@
 1. input 폴더에 등기부등본 파일을 넣는다. (PDF와 PNG 및 JPEG파일 지원)
 2. 본 레포지토리의 루트에서 다음 코드를 실행시키면 된다.
 ````
-python tools/infer.py
+python tools/infer.py [OPTIONS]
 ````
-
+## Options
+--s h|f|s
+내용을 추출할 구역을 설정한다.
+````
+0 : default(전부)
+h : headline(표제부)
+f : first(갑구)
+s : second(을구)
+````
 ## Train
 * 해당 레포지토리는 Tesseract OCR을 활용하여, 이하, 학습을 위해서는 Tesseract의 LSTM의 모델 학습 과정을 따른다.
 1) 새롭게 학습 시킬 .box 파일(텍스트)과 .tiff 파일(이미지)로 .lstmf 파일을 만든다.
