@@ -14,5 +14,5 @@ hello world
 ## Train
 
 ## How it works
-
+본 레포지토리 내 main.ipynb 파일에서 해당 소프트웨어의 OCR과정을 시각적으로 확인이 가능하다.
 ## About OCR
