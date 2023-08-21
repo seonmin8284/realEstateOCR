@@ -10,7 +10,7 @@ hello world
 ````
 ## Inference
 
-* CAT-Net v1
+* aaaa
 ## Train
 
 ## How it works
