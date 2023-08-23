@@ -20,7 +20,7 @@
 * pytesseract
 * Tesseract
 ## Inference
-1. input 폴더에 등기부등본 파일을 넣는다. (PDF와 PNG 및 JPEG파일 지원)
+1. input 폴더에 등기부등본 파일을 넣는다. (PDF와 PNG 및 JPEG/JPG파일 지원, PDF 권장)
 2. 본 레포지토리의 루트에서 다음 코드를 실행시키면 된다.
 ````
 python tools/infer.py [OPTIONS]
