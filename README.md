@@ -18,7 +18,7 @@ python tools/infer.py [OPTIONS]
 ##### --s h|f|s
 내용을 추출할 구역을 설정한다.
 ````
-0 : default(전부)
+0 : default(All)
 h : headline(표제부)
 f : first(갑구)
 s : second(을구)
@@ -27,6 +27,11 @@ s : second(을구)
 ````
 Y : save as csv
 N : default
+````
+##### --e Y|N
+````
+Y : 말소사항 제외
+N : default, 말소사항 포함
 ````
 
 ## Train
