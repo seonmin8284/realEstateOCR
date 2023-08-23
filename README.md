@@ -25,8 +25,7 @@ s : second(을구)
 ````
 ## Train
 * 해당 레포지토리는 Tesseract OCR을 활용하여, 이하, 학습을 위해서는 Tesseract OCR의 tesstrain을 사용한다.
-1. 
-2. 
+https://github.com/tesseract-ocr/tesstrain
 
 ## How it works
 본 레포지토리 내 main.ipynb 파일에서 해당 소프트웨어의 OCR과정을 시각적으로 확인이 가능하다.
