@@ -24,11 +24,13 @@ f : first(갑구)
 s : second(을구)
 ````
 ##### --save Y|N
+추출된 내용을 csv 파일로 저장한다.
 ````
 Y : save as csv
 N : default
 ````
 ##### --e Y|N
+문서 내 말소사항은 제외하고 출력한다.
 ````
 Y : 말소사항 제외
 N : default, 말소사항 포함
