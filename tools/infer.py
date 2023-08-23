@@ -17,18 +17,22 @@ def pdf_to_img(pdf_file):
     return pdf2image.convert_from_path(pdf_file)
 
 
-def ocr_core(file):
-    text = pytesseract.image_to_string(file)
-    return text
+# def ocr_core(file):
+#     text = pytesseract.image_to_string(file)
+#     return text
 
 
 def print_pages(pdf_file):
     images = pdf_to_img(pdf_file)
     for pg, img in enumerate(images):
-        print(ocr_core(img))
+        img.save('page_{}.jpg'.format(pg))
 
 
-print_pages('sample.pdf')
+print_pages('sample_input/testPdf.pdf')
+
+
+
+
 
 
 import pandas as pd
