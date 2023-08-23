@@ -1,11 +1,11 @@
 현재 미완성, 작업 중입니다. 작동하지 않습니다.
 
 # realEstateOCR
-해당 리포지터리는 대한민국의 등기등본 문서에 적합한 OCR 기능을 목표로, Tesseract OCR의 pretrained된 모델의 등기부등본 형식을 Fine-tuning한 레포지토리이다. 표로 이루어진 문서 내용 구성과 한국 주소(한글, 숫자, 기호 등으로 구성)를 정확하게 인식하는 것에 특장점을 지닌다.
+해당 리포지터리는 대한민국의 등기등본 문서에 적합한 OCR 기능을 목표로, Tesseract OCR의 pretrained된 모델의 등기부등본 형식을 Fine-tuning한 레포지토리이다. 표로 이루어진 문서 내용 구성과 한국 주소(한글, 숫자, 기호 등으로 구성)를 보다 정확하게 인식하는 것에 특장점을 지닌다.
 표 추출을 위해 OpenCV 라이브러리와 OCR을 위한 Tesseract 프레임워크를 활용하였다.
 
 ## Samples
-##### 1. Clone this repo.
+
 ## Setup
 
 ## Inference
