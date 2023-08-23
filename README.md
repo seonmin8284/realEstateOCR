@@ -6,8 +6,19 @@
 
 ## Samples
 
-## Setup
-
+## Prerequisites
+* python
+* cv2
+* numpy
+* matplotlib.pyplot as plt
+* imutils.perspective import four_point_transform
+* from imutils.contours import sort_contours
+* import imutils
+* re
+* requests
+* from PIL import Image 
+* pytesseract
+* Tesseract
 ## Inference
 1. input 폴더에 등기부등본 파일을 넣는다. (PDF와 PNG 및 JPEG파일 지원)
 2. 본 레포지토리의 루트에서 다음 코드를 실행시키면 된다.
