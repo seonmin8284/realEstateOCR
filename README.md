@@ -15,7 +15,7 @@
 python tools/infer.py [OPTIONS]
 ````
 ## Options
---s h|f|s
+##### --s h|f|s
 내용을 추출할 구역을 설정한다.
 ````
 0 : default(전부)
@@ -23,10 +23,17 @@ h : headline(표제부)
 f : first(갑구)
 s : second(을구)
 ````
+##### --save Y|N
+````
+Y : save as csv
+N : default
+````
+
 ## Train
 * 해당 레포지토리는 Tesseract OCR을 활용하여, 이하, 학습을 위해서는 Tesseract OCR의 tesstrain을 사용한다.
 https://github.com/tesseract-ocr/tesstrain
 
 ## How it works
-본 레포지토리 내 main.ipynb 파일에서 해당 소프트웨어의 OCR과정을 시각적으로 확인이 가능하다.
+본 레포지토리 내 main.ipynb 파일에서 해당 소프트웨어의 OCR 전처리 및 작동 과정을 시각적으로 확인이 가능하다.
+
 ## About OCR
