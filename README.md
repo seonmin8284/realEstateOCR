@@ -31,14 +31,6 @@
 python tools/infer.py [OPTIONS]
 ````
 ## Options
-##### --s h|f|s
-내용을 추출할 구역을 설정한다.
-````
-0 : default(All)
-h : headline(표제부)
-f : first(갑구)
-s : second(을구)
-````
 ##### --save Y|N
 추출된 내용을 csv 파일로 저장한다.
 ````
@@ -58,5 +50,15 @@ https://github.com/tesseract-ocr/tesstrain
 
 ## How it works
 본 레포지토리 내 main.ipynb 파일에서 해당 소프트웨어의 OCR 전처리 및 작동 과정을 시각적으로 확인이 가능하다.
+* OCR 전처리 과정
+1. 회전도 측정
+2. 선명도 증가
+3. 로고 및 바코드 영역 템플릿 매칭 및 제거
+4. 문서 내 표 인식 및 제거
+5. 이진화 및 워터마크 제거
+
+* OCR 실행
+
+* OCR 후처리 - 자연어 사전 유사도 매칭을 통한 OCR 개선
 
 ## About OCR
