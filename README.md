@@ -5,9 +5,9 @@
 표 추출을 위해 OpenCV 라이브러리와 OCR을 위한 Tesseract 프레임워크를 활용하였다.
 
 ## Samples
-<img src="images/save.png" height="150">
-<img src="images/save2.png"height="150">
-<img src="images/save3.png" height="150">
+<img src="images/save.png" height="250">
+<img src="images/save2.png"height="250">
+<img src="images/save3.png" height="250">
 
 ## Prerequisites
 * python
