@@ -5,6 +5,9 @@
 표 추출을 위해 OpenCV 라이브러리와 OCR을 위한 Tesseract 프레임워크를 활용하였다.
 
 ## Samples
+<img src="images/save.png" height="370">
+<img src="images/save2.png"height="370">
+<img src="images/save3.png" height="370">
 
 ## Prerequisites
 * python
@@ -20,7 +23,7 @@
 * pytesseract
 * Tesseract
 ## Inference
-1. input 폴더에 등기부등본 파일을 넣는다. (PDF와 PNG 및 JPEG/JPG파일 지원, PDF 권장)
+1. input 폴더에 등기부등본 파일을 넣는다. (PDF와 PNG 및 JPEG/JPG파일 지원)
 2. 본 레포지토리의 루트에서 다음 코드를 실행시키면 된다.
 ````
 python tools/infer.py [OPTIONS]
