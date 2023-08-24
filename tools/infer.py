@@ -4,7 +4,6 @@ import pytesseract
 # tessdata_dir_config = '--tessdata-dir "src"'
 # pytesseract.image_to_string(front,lang='kor',config=tessdata_dir_config)
 
-# 1) pdf이면 이렇게 하기, 아니면 바로 진행
 import pdf2image
 try:
     from PIL import Image
