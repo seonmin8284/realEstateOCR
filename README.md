@@ -80,10 +80,7 @@ https://github.com/tesseract-ocr/tesstrain
 ### 📍 서비스 설명
 ![image](https://github.com/user-attachments/assets/a9006700-2850-44f8-9e2f-1369ab0c82c3)
 
-<br>
 
-### 📍 전세사기 위험 분석 절차
-![image](https://github.com/user-attachments/assets/1b12e6dd-8815-489f-9d26-52cc3a3d385f)
 ### 📍 시연 영상
 https://github.com/user-attachments/assets/dd0f915d-45e8-4dda-9c62-665d2ca64200
 
